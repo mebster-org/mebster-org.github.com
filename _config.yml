@@ -1,0 +1,8 @@
+paginate: 10000
+url: http://sixsq.com
+markdown: kramdown
+encoding: utf-8
+exclude: ["Genfile", "Genfile.lock", ".gitignore", "Rakefile", "config.ru", "vendor"]
+jekyll_auth:
+  whitelist:
+    - "^((?!private).)*$"
